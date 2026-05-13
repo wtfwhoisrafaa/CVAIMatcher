@@ -39,7 +39,7 @@ const PaywallModal = ({ isLimitReached }) => (
       href="https://payhip.com/order?link=U2tAy&pricing_plan=1yz49LJxBp" 
       className="group relative px-8 py-4 w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-bold text-lg transition-all duration-300 shadow-[0_0_40px_-10px_rgba(99,102,241,0.5)] flex items-center justify-center"
     >
-      Get Lifetime Access — $17
+      Get Lifetime Access — <span className="line-through opacity-60 mr-2 text-base font-normal">$19.99</span> $15
     </a>
     <p className="text-gray-400 text-sm mt-4 font-medium">Instant access. No subscription. Use forever.</p>
   </div>
